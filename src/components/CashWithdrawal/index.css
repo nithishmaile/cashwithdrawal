@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  min-height: 100vh;
+}
+.card-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 20px;
+  min-width: 50%;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 70px;
+  width: 70px;
+  border-radius: 90px;
+  margin-right: 20px;
+}
+.profile {
+  color: #585076;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.user-name {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.top-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.yourBalance-heading {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: column;
+}
+.inRupees-heading {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.balanceAmount-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+}
